@@ -3,7 +3,7 @@ class MessagesChannel < ApplicationCable::Channel
 		stream_from "messages"
 	end
 
-	# def receive(data)
-	# 	ActionCable.server.broadcast 'messages', data
-	# end
+	def receive(data)
+		ActionCable.server.broadcast 'messages', data
+	end
 end

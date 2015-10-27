@@ -48,4 +48,6 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+  # Add action Cable middleware
+  config.middleware.use "ChatActionCable"
 end
