@@ -6,7 +6,7 @@ gem 'arel', github: "rails/arel"
 gem 'actioncable', github: 'rails/actioncable'
 gem 'rack', github: "rack/rack"
 
-gem 'sqlite3'
+gem 'pg'
 gem 'puma'
 
 gem 'sass-rails', '~> 5.0'
